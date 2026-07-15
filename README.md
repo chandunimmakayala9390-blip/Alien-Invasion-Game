@@ -111,12 +111,6 @@ python alien_invasion.py
 
 ---
 
-## 📸 Screenshots
-
-_Add gameplay screenshots here._
-
----
-
 ## Acknowledgements
 
 This project was implemented as part of my learning journey by following the concepts presented in:
