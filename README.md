@@ -1,19 +1,19 @@
 # 👾 Alien Invasion Game
 
-A classic 2D arcade-style space shooter developed using **Python** and **Pygame**. The player controls a spaceship to eliminate waves of invading aliens while surviving increasingly difficult levels through dynamic gameplay mechanics.
+A 2D arcade-style space shooter implemented using **Python** and **Pygame** as part of learning game development concepts from *Python Crash Course (3rd Edition)* by Eric Matthes. The project demonstrates object-oriented programming, event-driven architecture, collision detection, game state management, and progressively challenging gameplay.
 
 ---
 
 ## 🚀 Features
 
-- Real-time player movement and shooting mechanics
+- Real-time spaceship movement and shooting mechanics
 - Dynamic alien fleet generation
 - Bullet–alien collision detection
-- Progressive difficulty with increasing enemy speed
-- Score tracking and high-score system
+- Progressive difficulty with increasing game speed
+- Score, high score, and level tracking
 - Multiple lives with game-over handling
-- Level progression
 - Interactive Play button and game state management
+- Object-oriented and modular project structure
 
 ---
 
@@ -27,20 +27,20 @@ A classic 2D arcade-style space shooter developed using **Python** and **Pygame*
 
 ## 📂 Project Structure
 
-```
+```text
 Alien-Invasion-Game/
 │
-├── alien_invasion.py     # Main game loop
-├── ship.py               # Player spaceship
-├── alien.py              # Alien behavior
-├── bullet.py             # Bullet mechanics
-├── scoreboard.py         # Score, lives and levels
-├── game_stats.py         # Game state
-├── button.py             # Play button
-├── settings.py           # Game configuration
+├── alien_invasion.py      # Main game loop
+├── ship.py                # Player spaceship
+├── alien.py               # Alien behavior
+├── bullet.py              # Bullet mechanics
+├── scoreboard.py          # Score, level and lives display
+├── game_stats.py          # Game statistics
+├── button.py              # Play button
+├── settings.py            # Game configuration
 ├── images/
-│     ├── ship.bmp
-│     └── alien.bmp
+│   ├── ship.bmp
+│   └── alien.bmp
 └── README.md
 ```
 
@@ -48,9 +48,9 @@ Alien-Invasion-Game/
 
 ## 🎮 Gameplay
 
-Players control a spaceship positioned at the bottom of the screen and eliminate incoming alien fleets.
+Control a spaceship to defend against waves of invading aliens while surviving increasingly difficult levels.
 
-Controls:
+### Controls
 
 | Key | Action |
 |------|--------|
@@ -59,26 +59,18 @@ Controls:
 | Space | Fire Bullet |
 | Q | Quit Game |
 
-As the player clears each wave:
-
-- Alien speed increases
-- Ship speed increases
-- Bullet speed increases
-- Alien score value increases
-- Level increments automatically
-
 ---
 
 ## ⚙️ Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/chandunimmakayala9390-blip/Alien-Invasion-Game.git
 cd Alien-Invasion-Game
 ```
 
-Install dependencies
+Install the required dependency:
 
 ```bash
 pip install pygame
@@ -94,39 +86,51 @@ python alien_invasion.py
 
 ---
 
-## 💡 Key Concepts Demonstrated
+## 💡 Concepts Demonstrated
 
-- Object-Oriented Programming
+- Object-Oriented Programming (OOP)
 - Event-Driven Programming
 - Collision Detection
 - Sprite Management
 - Game State Management
 - Dynamic Difficulty Scaling
-- Real-Time Rendering using Pygame
+- Modular Software Design using Python
+- Real-Time Rendering with Pygame
 
 ---
 
 ## 📈 Future Enhancements
 
-- Background music and sound effects
+- Sound effects and background music
 - Multiple enemy types
 - Boss battles
-- Power-ups
-- Pause and Resume
-- Save High Scores
-- Animated sprites
+- Power-ups and special weapons
+- Pause and resume functionality
+- Persistent high-score storage
+- Animated sprites and visual effects
 
 ---
 
 ## 📸 Screenshots
 
-(Add gameplay screenshots here.)
+_Add gameplay screenshots here._
 
 ---
 
-## 👨‍💻 Author
+## Acknowledgements
 
-**Saichandra Nimmakayala**
+This project was implemented as part of my learning journey by following the concepts presented in:
 
-GitHub:
-https://github.com/chandunimmakayala9390-blip
+**Python Crash Course (3rd Edition)**  
+**Author:** Eric Matthes
+
+The project helped strengthen my understanding of:
+
+- Object-Oriented Programming
+- Event-driven programming
+- Pygame-based game development
+- Collision detection
+- Game state management
+- Building modular Python applications
+
+The implementation in this repository reflects my hands-on practice and understanding of these concepts while following the book.
